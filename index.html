@@ -7,8 +7,8 @@
     <title>網站開發的第一堂課</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -17,7 +17,23 @@
     <![endif]-->
   </head>
   <body>
-    <h1>大家一起來用Bootstrap做一個網站吧！</h1>
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 logo">
+                    <a href="/"><img src="img/logo_vertical_big.jpg" alt="prototype hacker logo"></a>
+                </div>
+                <div class="col-xs-6 menu">
+                    <ul>
+                        <li><a href="/">學員介紹</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        
+    </div>
 
     
 
@@ -25,6 +41,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   </body>
 </html>

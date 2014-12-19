@@ -1,0 +1,10 @@
+#header .logo img{
+	width: 100%;
+	height: auto;
+}
+#header .menu ul{
+	padding-left: 0px;
+}
+#header .menu ul li{
+	display: inline-block;
+}
